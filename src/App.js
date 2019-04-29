@@ -1,9 +1,12 @@
 import React from 'react';
+import ModalPreview from './components/modalPreviev.js';
 
-function App() {
-  return (
-<h1>Как тебе такой Илон Маск? Хочешь по лицу, да? Где моя машина? С тебя пол лимона! Чебуреки топ! Космические войска Топ!</h1>
-  );
+export default class App extends React.Component {
+    render() {
+        return(
+            <>
+                <ModalPreview/>
+            </>
+        )
+    }
 }
-
-export default App;
